@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"os"
 	"time"
-	"github.com/sanshirookazaki/cli/processlog"
 )
 
 func main() {

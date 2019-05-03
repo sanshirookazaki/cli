@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-func initOut(logDir, commandName, string) (stdout, stderr io.Writer, err error) {
+func initOut(logDir, commandName string) (stdout, stderr io.Writer, err error) {
 	if logDir == "" {
 		stdout = os.Stdout
 		stderr = os.Stderr
