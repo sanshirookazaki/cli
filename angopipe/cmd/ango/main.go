@@ -1,12 +1,13 @@
 package main
 
 import (
-	"angopipe"
 	"crypto/rand"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"os"
+
+	"github.com/sanshirookazaki/cli/angopipe"
 )
 
 func main() {

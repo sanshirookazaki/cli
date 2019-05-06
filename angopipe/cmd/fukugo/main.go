@@ -15,7 +15,7 @@ func main() {
 	}
 
 	nonce := make([]byte, 12)
-	n, err := io.ReadFull(os.Stdoin, nonce)
+	n, err := io.ReadFull(os.Stdin, nonce)
 	if n != 12 || err != nil {
 		fmt.Fprintf(os.Stderr, "Can't read nonce: %v¥n", err)
 		os.Exit(1)
