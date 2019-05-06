@@ -1,7 +1,7 @@
 package main
 
 import (
-	"angopipe"
+	"github.com/sanshirookazaki/cli/angopipe"
 	"fmt"
 	"io"
 	"io/ioutil"

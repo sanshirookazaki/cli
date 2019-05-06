@@ -14,7 +14,7 @@ func Prepare() (cipher.AEAD, error) {
 		return nil, errors.New("Environment Variable 'ANGO_KEY' is empty")
 	}
 	key, err := base64.StdEncoding.DecodeString(rawKey)
-	if err := nil {
+	if err != nil {
 		return nil, errors.New("Decode 'ANGO_KEY' key error")
 	}
 
